@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Primary Meta Tags -->
+        <title>js practice</title>
+        <meta name="title" content="coffee">
+        <meta name="description" content="coffee demo website">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="coffee">
+        <meta property="og:title" content="coffee">
+        <meta property="og:description" content="coffee demo website">
+        <meta property="og:image" content="bivashsukul">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="coffee">
+        <meta property="twitter:title" content="coffee">
+        <meta property="twitter:description" content="coffee demo website">
+        <meta property="twitter:image" content="bivashsukul">
+        
+        <!-- Optional Meta Tags -->
+        <meta name="keywords" content="tuyorial,html,css">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="language" content="english">
+        <meta name="revisit-after" content="1 days">
+        <meta name="author" content="coffee">
+        <!-- pe 7 icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+        <!-- font cdn -->
+        <link rel="stylesheet" href="fontawesome-icon/css/all.min.css">
+        <!-- favicon link-->
+        <link rel="icon" href="images/logo.png">
+        <!-- css links -->
+        <link rel="stylesheet" href="css/bootstrap.css">    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+  </head>
+<body>
+<div class="container">
+<!-- ex1 -->
+<h2>click the button to show the text</h2>
+<button type="button" class="btn bg-dark text-white" onclick="showText()">show text</button>
+<button type="button" class="btn bg-dark text-white" onclick="hideText()">hide text</button>
+
+<h4 id="s_text"class="s_text"></h4> <hr>
+
+
+<!-- ex 2 -->
+<h2 class="text-success">click the button to show the text</h2>
+<button type="button" class="btn bg-secondary" onclick="showtext()">show text</button>
+<h4 id="show_text"></h4> <hr>
+
+
+<!-- ex-3 -->
+<h2 class="text-secondary">click the button to change text color</h2>
+<button type="button" class="btn bg-info" onclick="fontChange()">font change</button>
+<h4 id="font_size">Bangladesh</h4> <hr>
+
+
+<!-- ex-4 -->
+ <h2>click the button to change the text color</h2>
+ <button type="button" class="btn bg-primary" onclick="colorChange()">color red</button>
+ <h4 id="color_change">bangladesh</h4> <hr>
+
+
+<!-- ex-5 -->
+<h2>click button to hide the text</h2>
+<button type="button" class="btn bg-info" onclick="hideText()">hide text</button>
+<h4 id="hide_text"> Bangladesh</h4><hr>
+
+
+<!-- ex-5 -->
+<h2>click button to hide the text</h2>
+<button type="button" class="btn bg-success" onclick="shoText()">hide text</button>
+<h4 id="sho_text"> Bangladesh</h4><hr>
+
+<!-- ex-5 -->
+<h2>click button to show the result</h2>
+<button type="button" class="btn bg-success" onclick="resultMenuplet()">result</button>
+<h4 id="resu"> result is</h4><hr>
+
+
+<!-- ex 6 temperature  -->
+<h2>click button to show the temperature</h2>
+<button onclick="tempra()" type="button" class="btn bg-primary">fahranhight</button>
+<h4 id="fahra">fahranhight is</h4><hr>
+
+<!-- ex 7 temperature  -->
+<h2>click button to show the celcius</h2>
+<button onclick="temprature()" type="button" class="btn bg-primary">fahranhight</button>
+<h4 id="celcius">celcius tamprature is</h4><hr>
+
+
+<!-- ex-8 -->
+<h3>click button to show the logical operator result</h3>
+<button onclick="logicalOperat()" type="button" class="btn bg-primary">logical result</button>
+<h4 id="resu1">logical result is</h4><hr>
+
+<!-- ex-9 -->
+<h3>click button to show the logical operator result</h3>
+<button onclick="logicalEqual()"class="bg-secondary btn " type="button" >logical result</button>
+<h4 id="resu4">logical result is</h4><hr>
+
+<!-- ex-10 -->
+<h3>click button to show the or operator result</h3>
+<button onclick="andEqual()"class="bg-success btn " type="button" >and result</button>
+<h4 id="resu5">and result is</h4><hr>
+
+
+<!-- ex-11 -->
+<h3>click button to show the large result</h3>
+<button onclick="orEqual()"class="bg-warning btn " type="button" >and result</button>
+<h4 id="resu7">or result is</h4><hr>
+
+
+<!-- ex-12 -->
+<h3>click button to show the Number Odd/Even</h3>
+<button onclick="oddEven()"class="bg-warning btn " type="button" >Odd/Even</button>
+<h4 id="jor">or result is</h4><hr>
+
+
+
+
+
+
+<!-- ex-12 -->
+<h3>click button to show the <b>student result if else if</b></h3>
+<button onclick="mar()"class="bg-success btn " type="button" >and result</button>
+<h4 id="mark">Marks is</h4><hr>
+
+
+<!-- ex-13 -->
+<h3>click button to show the <b> fof loop</b></h3>
+<button onclick="adde()"class="bg-info btn " type="button" >Result</button>
+<h4 id="demo"></h4><hr>
+
+
+<!-- ex-14-->
+<h3>click button to show the <b> fof loop</b></h3>
+<button onclick="total()"class="bg-info btn " type="button" >Total Marks</button>
+<h4 id="demo1"></h4><hr>
+
+
+
+<!-- ex-15-->
+<h3>click button to show the <b> while loop</b></h3>
+<button onclick="sum1()"class="bg-primary btn " type="button" >sum</button>
+<h4 id="demo2"></h4><hr>
+
+
+<!-- ex-16-->
+<h3>click button to show the <b> while loop</b></h3>
+<button onclick="sum9()"class="bg-secondary btn " type="button" >sum</button>
+<h4 id="demo3"></h4><hr>
+
+
+<!-- ex-17-->
+<h3>click button to show the <b> while loop break/continue</b></h3>
+<button onclick="con()"class="bg-danger btn " type="button" >sum</button>
+<h4 id="brea"></h4><hr>
+
+
+<!-- ex-18-->
+<h3>click button to show the <b>  funcation </b></h3>
+<button onclick="squre()"class="bg-warning btn " type="button" >squre</button>
+<h5 id="add"></h5><hr>
+
+<!-- ex-19-->
+<h3>click button to show the <b>  funcation </b></h3>
+<button onclick="squre5()"class="bg-primary btn " type="button" >squre</button>
+<h5 id="added"></h5><hr>
+
+
+
+<!-- ex-20-->
+<h3>click button to show the <b>  funcation </b></h3>
+<button onclick="displayMessage()"class="bg-secondary btn " type="button" >squre</button>
+<h5 id="invokable"></h5><hr>
+
+
+<!-- ex-21-->
+<h3>click button to show the <b>  array </b></h3>
+<button onclick="arra()"class="bg-secondary btn " type="button" >array</button>
+<h5 id="arr"></h5><hr>
+
+
+<!-- ex-22-->
+<h3>click button to show the <b>  array concatination</b></h3>
+<button onclick="arra1()"class="bg-success btn " type="button" >array-concat</button>
+<h5 id="arr1"></h5><hr>
+
+
+<!-- ex-22-->
+<h3>click button to show the <b>  array add loop and totat plus</b></h3>
+<button onclick="arraLoop()"class="bg-info btn " type="button" >array-loop</button>
+<button onclick="arraLoop1()"class="bg-info btn " type="button" >array-loop add</button>
+<h5 id="arrLoop"></h5><hr>
+
+
+<!-- ex-23-->
+<h3>click button to show the <b>  array shift/unshift</b></h3>
+<button onclick="arrshift()"class="bg-info btn " type="button" >array-shift/unshift</button>
+<button onclick="squad()"class="bg-info btn " type="button" >array-Splicet</button>
+<h5 id="array"></h5><hr>
+
+
+
+<!-- ex-24 1D array-->
+<h3>click button to show the <b>  1D array</b></h3>
+<button onclick="oneDarra()"class="bg-danger btn " type="button" >1Darray</button>
+<h5 id="1darray"></h5><hr>
+
+
+<!-- ex-25 2D array-->
+<h3>click button to show the <b>  2D array</b></h3>
+<button onclick="twoDarra()"class="bg-danger btn " type="button" >2Darray</button>
+<h5 id="2darray"></h5><hr>
+
+
+<!-- OBJECt--------------------------------------- -->
+
+
+<!-- ex-26)BJECT-->
+<h3>click button to show the <b>  Object</b></h3>
+<button onclick="student()"class="bg-warning btn " type="button" >Object</button>
+<h5 id="student"></h5><hr>
+
+
+
+<!-- ex-27--  OJECT-->
+<h3>click button to show the <b>multiple  Object</b></h3>
+<button onclick="multiple()"class="bg-warning btn " type="button" >Object</button>
+<h5 id="demo5"></h5><hr>
+
+
+
+<!-- ex-28--  OJECT-->
+<h3>click button to show the <b>multiple  Object</b></h3>
+<button onclick="multipleSub1()"class="bg-warning btn " type="button" >Object</button>
+<button onclick="multipleSub2()"class="bg-warning btn " type="button" >Object</button>
+<button onclick="multipleSub3()"class="bg-warning btn " type="button" >Object</button>
+<h6 id="demo6"></h6><hr>
+
+<!-- ex 29----------- -->
+<h3>click button to show the <b>date method</b></h3>
+<button onclick="dates()"class="bg-warning btn " type="button" >Date</button>
+<h6 id="demo7"></h6><hr>
+
+
+<!-- ex 30----------- -->
+<h3>click button to show the <b>date method</b></h3>
+<button onclick="years()"class="bg-warning btn " type="button" >Date</button>
+<h6 id="demo8"></h6><hr>
+
+<!-- ex 31----------- -->
+<h3>click button to show the <b>date method</b></h3>
+<button onclick="currentDates()"class="bg-warning btn " type="button" >Current Date</button>
+<h6 id="demo9"></h6><hr>
+
+<!-- ex 32----------- -->
+<h3>click button to show the <b>date method</b></h3>
+<button onclick="currentDa()"class="bg-warning btn " type="button" >Current Day</button>
+<h6 id="demo10"></h6><hr>
+
+
+<!-- ex 33----------- -->
+<h3 class="heading">click button to show the <b>class selector</b></h3>
+<button onclick="classsel()"class="bg-warning btn " type="button" >Class selector</button>
+<h6 id="demo10"></h6><hr>
+
+
+<!-- ex 34--------------- -->
+<h4 class="heading">click button to show the <b>tag selector</b></h4>
+<h1>India</h1>
+<h1>India2</h1>
+<h1>India3</h1>
+<button onclick="tagNames()"class="bg-warning btn " type="button" >Tag selector</button>
+<hr>
+
+<!-- ex 35--------------- -->
+<h4 class="heading">click button to show the <b>Query selector (Tag selector)</b></h4>
+<h5 class="quiri">India</h5>
+<p>Lorem ipsum dolor sit amet.</p>
+<button onclick="quer()"class="bg-warning btn " type="button" >query Tag selector</button>
+<h6 id="demo10"></h6><hr>
+
+<!-- ex 36--------------- -->
+<h4 class="heading">click button to show the <b>Query selector (class selector)</b></h4>
+<h5 class="qui">Bangladesh </h5>
+<p>Lorem ipsum dolor sit amet.</p>
+<button onclick="querySe()"class="bg-warning btn " type="button" >query class selector</button>
+<h6 id="demo10"></h6><hr>
+
+<!-- ex 37--------------- -->
+<h4 class="heading">click button to show the <b>Query selector (ID selector)</b></h4>
+<h5 class="qui">Bangladesh </h5>
+<p id="qui">Lorem ipsum dolor sit amet.</p>
+<button onclick="querySe()"class="bg-warning btn " type="button" >query Id selector</button>
+<h6 id="demo10"></h6><hr>
+
+
+<!-- ex 38--------------- -->
+<h4 class="heading">click button to show the <b>Query selector (link selector)</b></h4>
+
+<button onclick="querySe()"class="bg-warning btn " type="button" >query link selector</button>
+<button onclick="ulList()"class="bg-info btn " type="button" >query ul link selector</button>
+<button onclick="ulList1()"class="bg-info btn " type="button" >query ul link selector</button>
+<br>
+<a href="#">Home</a>
+<ul>
+  <li><a href="#">tutorial</a></li>
+  <li>Bangladesh</li>
+</ul>
+<div class="my_div">
+  <a href="#">contact</a>
+</div>
+<hr>
+
+
+<!-- ex 39--------------- -->
+<h4 class="heading">click button to show the <b>img</b></h4>
+
+<button onclick="myPicture1()"class="bg-warning btn " type="button" >img1</button>
+<button onclick="myPicture2()"class="bg-warning btn " type="button" >img2</button>
+<p></p>
+<img id="myImages" src="#" alt="img" width="200px" height="200p">
+<hr>
+
+
+<!-- ex 40--------------- -->
+<h4 class="heading">click button to show the <b>links</b></h4>
+<button onclick="mylinks()"class="bg-warning btn " type="button" >links</button> <br>
+
+<a id="myLinks" href="">Visit My Google</a>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+    
+    <!-- script links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
